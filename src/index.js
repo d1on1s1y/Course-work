@@ -14,22 +14,7 @@ const users = [
 ];
 let currentUser = '';
 
-let postData = [
-  // {
-  //   publicationTheme: 'Тема публикации 1',
-  //   publicationText:
-  //     'Текст публикации 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  //   id: '0',
-  //   comments: [],
-  // },
-  // {
-  //   publicationTheme: 'Тема публикации 2',
-  //   publicationText:
-  //     'Текст публикации 2. Etiam felis eros, lobortis in efficitur sed, scelerisque vel quam.',
-  //   id: '1',
-  //   comments: [],
-  // },
-];
+let postData = [];
 
 createHeader();
 renderPosts();
